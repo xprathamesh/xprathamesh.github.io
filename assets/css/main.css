@@ -1639,9 +1639,9 @@ input, select, textarea {
 	}
 
 		#footer .copyright {
-			letter-spacing: 0.2rem;
+			letter-spacing: 0.15rem;
 			font-size: 0.4rem;
-			opacity: 0.7;
+			opacity: 0.6;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
