@@ -96,12 +96,12 @@ img { max-width: 100%; display: block; }
 .hero { padding: 48px 0 56px; }
 
 .avatar {
-  width: 88px;
-  height: 88px;
+  width: 144px;
+  height: 144px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--line);
-  margin-bottom: 28px;
+  border: 2px solid var(--line);
+  margin-bottom: 24px;
 }
 
 h1 {
@@ -305,7 +305,7 @@ a.card:hover { border-color: var(--ink); }
 }
 
 /* Pin the left column only when the window is tall enough to show all of it. */
-@media (min-width: 1000px) and (min-height: 640px) {
+@media (min-width: 1000px) and (min-height: 820px) {
   .hero { position: sticky; top: 32px; }
 }
 
@@ -315,6 +315,7 @@ a.card:hover { border-color: var(--ink); }
   body { font-size: 16px; }
   .site-header nav { gap: 16px; }
   .hero { padding: 24px 0 44px; }
+  .avatar { width: 120px; height: 120px; }
   .cards { grid-template-columns: 1fr; }
   .item { grid-template-columns: 1fr; }
   section { padding: 44px 0; }
