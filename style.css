@@ -70,15 +70,17 @@ img { max-width: 100%; display: block; }
 }
 
 .mark {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
   font-family: var(--mono);
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 15px;
   color: var(--ink);
   text-decoration: none;
   border: 1.5px solid var(--ink);
   border-radius: 8px;
-  padding: 3px 7px;
 }
 
 .site-header nav { display: flex; gap: 22px; }
