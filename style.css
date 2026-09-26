@@ -96,8 +96,8 @@ img { max-width: 100%; display: block; }
 .hero { padding: 48px 0 56px; }
 
 .avatar {
-  width: 144px;
-  height: 144px;
+  width: 172px;
+  height: 172px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--line);
@@ -256,6 +256,7 @@ a.card:hover { border-color: var(--ink); }
 .teams li + li { margin-top: 10px; }
 .teams .meta { display: block; font-size: 14px; color: var(--faint); }
 .teams .yrs { font-family: var(--mono); font-size: 12.5px; }
+.teams .oss { display: block; margin-top: 4px; font-size: 14px; color: var(--muted); }
 
 /* Contact */
 
@@ -305,7 +306,7 @@ a.card:hover { border-color: var(--ink); }
 }
 
 /* Pin the left column only when the window is tall enough to show all of it. */
-@media (min-width: 1000px) and (min-height: 820px) {
+@media (min-width: 1000px) and (min-height: 880px) {
   .hero { position: sticky; top: 32px; }
 }
 
@@ -315,7 +316,7 @@ a.card:hover { border-color: var(--ink); }
   body { font-size: 16px; }
   .site-header nav { gap: 16px; }
   .hero { padding: 24px 0 44px; }
-  .avatar { width: 120px; height: 120px; }
+  .avatar { width: 144px; height: 144px; }
   .cards { grid-template-columns: 1fr; }
   .item { grid-template-columns: 1fr; }
   section { padding: 44px 0; }
